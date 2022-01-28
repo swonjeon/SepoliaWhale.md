@@ -80,7 +80,11 @@ Extract that somewhere, get into a PowerShell or create a bat file, then start i
 
 You can get help with `.\ethminer.exe --help`.
 
-An alternative is [t-rex](https://trex-miner.com/), closed-source. Download it, then run it in PowerShell or via bat as `.\t-rex.exe -a ethhash -o http://IP-OF-GETH-BOX:8545`.
+An alternative is [t-rex](https://trex-miner.com/), closed-source. It takes a 1% dev cut, and supports newer generation cards. Download it, then run it in PowerShell or via bat as `.\t-rex.exe -a ethash -o http://IP-OF-GETH-BOX:8545`.
+
+You can get help with `.\t-rex.exe --help`.
+
+In my testing both ethminer and t-rex get 20Mh/s from a GTX 1080 and 28Mh/s from a GTX 1070.
 
 ## Done
 
