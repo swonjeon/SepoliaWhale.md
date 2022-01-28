@@ -66,7 +66,7 @@ And finally `sudo ufw enable`. Adjust the policy to your own needs if you alread
 Grab [ethminer](https://github.com/ethereum-mining/ethminer/releases). It's open source and can use getwork from Geth, not just pools
 like closed-source miners.
 
-Extract that somewhere, then start it like so: For NVidia, `.\ethminer.exe -U -P getwork://IP-OF-GETH-BOX:8545` or for AMD, `.\ethminer.exe -G -P getwork://IP-OF-GETH-BOX:8545`.
+Extract that somewhere, get into a PowerShell, then start it like so: For NVidia, `.\ethminer.exe -U -P getwork://IP-OF-GETH-BOX:8545` or for AMD, `.\ethminer.exe -G -P getwork://IP-OF-GETH-BOX:8545`.
 
 You can get help with `.\ethminer.exe --help`
 
