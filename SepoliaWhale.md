@@ -49,7 +49,7 @@ Start it: `./ethd up`, and look at the logs with `./ethd logs -f execution`. It 
 
 ## Firewalling
 
-If your Linux boxen is on the Internet, you'll want to firewall the RPC port 8545 and WS port 8546, which are both exposed now. Follow
+If your Linux boxen is on the Internet, not in your home network, *and only then*, you'll want to firewall the RPC port 8545 and WS port 8546, which are both exposed now. Follow
 [instructions](https://eth-docker.net/docs/Support/Cloud) to place ufw "in front of" docker, get the public IP your Windows box uses
 with something like [whatismyip](https://whatismyip.com) and create a simple policy along these lines:
 
