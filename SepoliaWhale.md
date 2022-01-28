@@ -72,7 +72,7 @@ If this fails, you might not have added the `--http.corsdomain=*` to `geth.yml`.
 
 ## Windows mining
 
-> Your AntiVirus will likely quarantine these as cryptominers, because they are. You'll need to allow-list them.
+> Your AntiVirus and browser will likely quarantine these as cryptominers, because they are. You'll need to allow-list them.
 
 Grab [ethminer](https://github.com/ethereum-mining/ethminer/releases). It's open source, but doesn't work with newer-generation cards.
 
