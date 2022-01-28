@@ -84,7 +84,7 @@ An alternative is [t-rex](https://trex-miner.com/), closed-source. It takes a 1%
 
 You can get help with `.\t-rex.exe --help`.
 
-In my testing both ethminer and t-rex get 20Mh/s from a GTX 1080 and 28Mh/s from a GTX 1070.
+In my testing both ethminer and t-rex get the same hashrate from GTX 1080 and GTX 1070.
 
 ## Done
 
