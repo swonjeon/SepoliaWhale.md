@@ -84,7 +84,7 @@ An alternative is [t-rex](https://github.com/trexminer/T-Rex/releases), also ope
 
 You can get help with `.\t-rex.exe --help`.
 
-In my testing both ethminer and t-rex get the same hashrate from GTX 1080 and GTX 1070.
+In my testing both ethminer and t-rex get almost the same hashrate from GTX 1080 and GTX 1070, with T-Rex ahead by maybe 5%. T-Rex does have a nice UI.
 
 ## Done
 
