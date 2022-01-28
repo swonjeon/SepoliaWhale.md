@@ -17,7 +17,7 @@ Get prereqs: `sudo apt update && sudo apt install -y docker-compose`
 
 Clone eth-docker: `git clone https://github.com/eth-educators/eth-docker.git sepolia && cd sepolia`
 
-Configure eth-docker for this: `cp default.env .env` then `nano .env` and set
+Configure eth-docker for this: `cp default.env .env`, then `nano .env` and set
 
 - `COMPOSE_FILE=geth.yml:ec-shared.yml`
 - `EC_NETWORK=sepolia`
