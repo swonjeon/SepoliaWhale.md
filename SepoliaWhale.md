@@ -31,6 +31,7 @@ A few changes for Geth so it can mine. `nano geth.yml` and change the `entrypoin
 ```
     entrypoint:
       - geth
+      - --http.corsdomain=*
       .... existing entries, leave those be
       - --http.api
       - web3,eth,net,miner
@@ -60,6 +61,14 @@ sudo ufw deny 8546
 ```
 
 And finally `sudo ufw enable`. Adjust the policy to your own needs if you already had ufw running.
+
+## Connect Metmask to Sepolia
+
+In Metamask, go to Settings, Network, Add Network and create a new custom network. 
+
+Call it `Sepolia Test Network`, set the New RPC URL to your Sepolia Geth as `http://IP-OF-GETH-BOX:8545`, Chain ID `11155111`, currency symbol `ETH` and leave Explorer blank, until there is a Sepolia Explorer, that is.
+
+If this fails, you might not have added the `--http.corsdomain=*` to `geth.yml`
 
 ## Windows mining
 
