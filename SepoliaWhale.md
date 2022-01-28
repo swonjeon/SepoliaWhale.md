@@ -82,6 +82,6 @@ You can get help with `.\ethminer.exe --help`
 ## Done
 
 In your Geth logs, you should see `🔨 mined potential block` and `🔗 block reached canonical chain` as well as the occasional
-`⑂ block became an uncle`, and in ethminer you should see `**Accepted` messages.
+`⑂ block became an uncle`, and in ethminer you should see `Job:` and `**Accepted` messages.
 
 Enjoy the feeling of early Ethereum mining. Difficulty on Sepolia is low, you should see rewards come in steadily.
