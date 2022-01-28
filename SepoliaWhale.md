@@ -62,7 +62,7 @@ sudo ufw deny 8546
 
 And finally `sudo ufw enable`. Adjust the policy to your own needs if you already had ufw running.
 
-## Connect Metmask to Sepolia
+## Connect Metamask to Sepolia
 
 In Metamask, go to Settings, Network, Add Network and create a new custom network. 
 
