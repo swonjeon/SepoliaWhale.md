@@ -7,7 +7,7 @@ I want to "get ready" for some Sepolia testing pre- and post-merge. As it's PoW,
 ## Components
 
 - Geth on Sepolia, Linux. This could absolutely be Windows, I just happen to have Linux tooling I like
-- ethminer, Windows, with an NVidia or AMD GPU. Mostly because the only GPU I have that can mine is in my Windows box
+- ethminer or t-rex, Windows, with an NVidia or AMD GPU. Mostly because the only GPU I have that can mine is in my Windows box
 
 ## Set up Geth
 
