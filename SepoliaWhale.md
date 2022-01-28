@@ -72,13 +72,15 @@ If this fails, you might not have added the `--http.corsdomain=*` to `geth.yml`.
 
 ## Windows mining
 
+> Your AntiVirus will likely quarantine these as cryptominers, because they are. You'll need to allow-list them.
+
 Grab [ethminer](https://github.com/ethereum-mining/ethminer/releases). It's open source and can use getwork from Geth, but doesn't work with newer-generation cards.
 
-Extract that somewhere, get into a PowerShell, then start it like so: For NVidia, `.\ethminer.exe -U -P getwork://IP-OF-GETH-BOX:8545` or for AMD, `.\ethminer.exe -G -P getwork://IP-OF-GETH-BOX:8545`.
+Extract that somewhere, get into a PowerShell or create a bat file, then start it like so: For NVidia, `.\ethminer.exe -U -P getwork://IP-OF-GETH-BOX:8545` or for AMD, `.\ethminer.exe -G -P getwork://IP-OF-GETH-BOX:8545`.
 
-You can get help with `.\ethminer.exe --help`
+You can get help with `.\ethminer.exe --help`.
 
-An alternative is trex, closed-source. Stay tuned for instructions.
+An alternative is [t-rex](https://trex-miner.com/), closed-source. Download it, then run it in PowerShell or via bat as `.\t-rex.exe -a ethhash -o http://IP-OF-GETH-BOX:8545`.
 
 ## Done
 
