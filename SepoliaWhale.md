@@ -22,7 +22,7 @@ Configure eth-docker for this: `cp default.env .env`, then `nano .env` and set
 - `COMPOSE_FILE=geth.yml:ec-shared.yml`
 - `EC_NETWORK=sepolia`
 
-Save and close
+Save and close.
 
 Get the ETH address you want the Sepolia mining rewards to be sent to. Anything created in Metamask will do.
 
