@@ -74,7 +74,7 @@ If this fails, you might not have added the `--http.corsdomain=*` to `geth.yml`.
 
 > Your AntiVirus and browser will likely quarantine these as cryptominers, because they are. You'll need to allow-list them.
 
-Grab [ethminer](https://github.com/ethereum-mining/ethminer/releases). It's open source, but doesn't work with newer-generation cards.
+Grab [ethminer](https://github.com/ethereum-mining/ethminer/releases). It's open source, but doesn't work with newer-generation cards. A PR that enables CUDA11 and thus RTX 3000 series [does exist](https://github.com/ethereum-mining/ethminer/pull/2133), but there are no ready-made executables for it.
 
 Extract that somewhere, get into a PowerShell or create a bat file, then start it like so: For NVidia, `.\ethminer.exe -U -P getwork://IP-OF-GETH-BOX:8545` or for AMD, `.\ethminer.exe -G -P getwork://IP-OF-GETH-BOX:8545`.
 
