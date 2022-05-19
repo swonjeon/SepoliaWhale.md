@@ -15,7 +15,7 @@ I'm using [eth-docker](https://eth-docker.net) for this.
 
 Get prereqs: `sudo apt update && sudo apt install -y docker-compose`
 
-Make your user part of the `docker` group so you don't need `sudo`: `sudo usermod -aG docker MYUSERNAME && newgrp docker`
+Make your user part of the `docker` group so you don't need `sudo` for docker commands: `sudo usermod -aG docker MYUSERNAME && newgrp docker`
 
 Clone eth-docker: `git clone https://github.com/eth-educators/eth-docker.git sepolia && cd sepolia`
 
