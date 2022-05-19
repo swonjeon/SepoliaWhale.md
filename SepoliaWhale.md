@@ -1,6 +1,6 @@
 # Testnets after merge
 
-Early 2022, Ethereum is still PoW and motoring towards merge / PoS. [Surviving testnets](https://ethereum-magicians.org/t/og-council-post-merge-testnets/9034) will be Sepolia - currently PoW - and Goerli. Ropsten will be merged and then deprecated, Rinkeby won't be merged, and Kovan is Gnosis' concern.
+It's mid 2022, Ethereum is still PoW and motoring towards merge / PoS. [Surviving testnets](https://ethereum-magicians.org/t/og-council-post-merge-testnets/9034) will be Sepolia - currently PoW - and Goerli. Ropsten will be merged and then deprecated, Rinkeby won't be merged, and Kovan is Gnosis' concern.
 
 I want to "get ready" for some Sepolia testing pre- and post-merge. Sepolia will likely not have a public validator set; testing post-merge would be limited to running applications on it. As Sepolia is PoW, I can actually go mine myself some SEPPETH. Here's how.
 
