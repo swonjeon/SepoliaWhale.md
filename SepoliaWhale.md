@@ -19,8 +19,8 @@ Clone eth-docker: `git clone https://github.com/eth-educators/eth-docker.git sep
 
 Configure eth-docker for this: `cp default.env .env`, then `nano .env` and set
 
-- `COMPOSE_FILE=geth.yml:ec-shared.yml`
-- `EC_NETWORK=sepolia`
+- `COMPOSE_FILE=geth.yml:el-shared.yml`
+- `EL_NETWORK=sepolia`
 
 Save and close.
 
