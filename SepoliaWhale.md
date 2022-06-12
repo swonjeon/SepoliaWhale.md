@@ -67,7 +67,7 @@ And finally `sudo ufw enable`. Adjust the policy to your own needs if you alread
 
 In Metamask, go to Settings, Network, Add Network and create a new custom network. 
 
-Call it `Sepolia Test Network`, set the New RPC URL to your Sepolia Geth as `http://IP-OF-GETH-BOX:8545`, Chain ID `11155111`, currency symbol `SepplETH` and Explorer to `https://sepolia.otterscan.io`.
+Call it `Sepolia Test Network`, set the New RPC URL to your Sepolia Geth as `http://IP-OF-GETH-BOX:8545`, Chain ID `11155111`, currency symbol `SepplETH` and Explorer to `https://sepolia.etherscan.io`.
 
 ## Windows mining
 
