@@ -1,6 +1,6 @@
-# Sepolia PoS is live
+# Sepolia is now on PoS
 
-As of 2022/6/20, Sepolia PoS is live. The window to do some mining is closing fast.
+As of 2022/7/6, Sepolia has switched to PoS. The window to do some mining has closed.
 
 # Testnets after merge
 
