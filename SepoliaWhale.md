@@ -2,7 +2,7 @@
 
 As of 2022/7/6, Sepolia has switched to PoS. The window to do some mining has closed.
 
-# Testnets after merge
+# Testnets after merge (original, old content from here)
 
 It's mid 2022, Ethereum is still PoW and motoring towards merge / PoS. [Surviving testnets](https://ethereum-magicians.org/t/og-council-post-merge-testnets/9034) will be Sepolia - currently PoW - and Goerli. Ropsten will be merged and then deprecated, Rinkeby and Kovan won't be merged.
 
